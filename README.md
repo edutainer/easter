@@ -1,2 +1,2 @@
 # easter
-Rabbit an eggs game
+Rabbit and eggs game
