@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+div#game {
+    position: relative;
+    box-sizing: border-box;
+    margin: 20px 0;
+    width: 100%;
+    background-color: rgb(243, 219, 174);
+}
+div.hat {
+    position: absolute;
+    bottom: 0;
+    width: 85px;
+    height: 30px;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    border-top: 20px solid black;
+    border-right: 15px solid rgb(241, 205, 137);
+    border-left: 15px solid rgb(241, 205, 137);
+}
+#message{
+    position: absolute; 
+    display: none;
+    right: 20px;
+    width: 5em;
+    height: 1.4em;
+    background-color: rgb(255, 150, 150);
+    font-size: 34px;
+    text-align: center;
+    color: white;
+    border-bottom: 4px solid red;
+    border-left: 5px solid red;
+}
+div#lifeContainer{
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(139, 185, 147);
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    border-bottom: 4px solid green;
+    border-left: 5px solid green;
+}
+div.egg {
+    position: absolute;
+    background-color: rgb(255, 43, 0);
+    width: 15px;
+    height: 20px;
+    border-radius: 100%;
+}
